@@ -1,10 +1,9 @@
 import React from 'react';
+import CardProduct from "./cardProduct";
 const Main = () => {
     return (
         <div>
-            <h1>Main</h1>
-            <i className="bi bi-alarm"/>
-
+            <CardProduct/>
         </div>
     );
 };
