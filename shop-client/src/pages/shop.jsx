@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col'
 import TypeBar from "../components/typeBar";
 import BrandBar from "../components/brandBar";
+import DeviceList from "../components/deviceList";
 
 const Shop = () => {
     return (
@@ -12,8 +13,9 @@ const Shop = () => {
                 <Col md={3}>
                     <TypeBar/>
                 </Col>
-                <Col md={3}>
+                <Col md={9}>
                     <BrandBar/>
+                    <DeviceList/>
                 </Col>
             </Row>
         </Container>
