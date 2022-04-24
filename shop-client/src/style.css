@@ -1,0 +1,9 @@
+.brand-style {
+    font-family: cursive;
+    color: #ffd600;
+    text-decoration: none;
+}
+
+.brand-style:hover {
+    color: white;
+}

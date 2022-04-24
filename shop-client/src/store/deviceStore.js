@@ -51,7 +51,7 @@ export default class DeviceStore {
                 img: 'https://a.allegroimg.com/s720/1108b5/02ed062b4c39a2dd640375b58f1e/PRZEWODOWE-SLUCHAWKI-SAMSUNG-AKG-EO-IC100BWE-TYP-C'
             },
             {
-                id: 5,
+                id: 6,
                 name: 'Samsung GALAXY Buds+',
                 price: 13000,
                 rating: 4,

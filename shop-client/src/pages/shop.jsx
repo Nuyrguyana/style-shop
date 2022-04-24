@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col'
 import TypeBar from "../components/typeBar";
 import BrandBar from "../components/brandBar";
 import DeviceList from "../components/deviceList";
+import '../style.css'
 
 const Shop = () => {
     return (
