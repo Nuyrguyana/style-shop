@@ -1,9 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    background: #EAEAEA;
+}
+
+.header {
+    background-image: url('https://media.istockphoto.com/vectors/cartoon-blue-sky-wish-clouds-seamless-pattern-texture-for-fabric-vector-id1251213542?k=20&m=1251213542&s=170667a&w=0&h=bkd7_wUTvaHigAqKmjckNEOKh9k0XLnYshXaEZHB-yE=');
+}
+
 .brand-style {
     font-family: cursive;
     color: #ffd600;
     text-decoration: none;
+    text-shadow: 2px 2px #000000;
 }
 
 .brand-style:hover {
+    color: white;
+}
+
+.content {
+    display: inline-block;
+    width: 250px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.card-content-image {
+    display: flex;
+    width: 220px;
+    height: 237px;
+    padding: 45px 64px 30px 55px;
+}
+
+.img-product {
+    text-align: center;
+    width: 130px;
+    height: 130px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.price {
+    color: #FFA542;
+    width: 59px;
+    height: 21px;
+}
+
+.title {
+    width: 144px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.star {
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    margin: 0 3px;
+
+}
+
+.button-add {
+    cursor: pointer;
+    width: 65px;
+    height: 21px;
+    border: none;
+    background: transparent;
+    color: #575757;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button-add:hover {
+    color: #000000;
+}
+
+.type-bar {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.listgroup-item {
+    cursor: pointer;
+}
+
+.btn-navbar {
+    background: none;
+    border: none;
+    color: #ffd600;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000000;
+}
+
+.btn-navbar:hover {
+    background: none;
     color: white;
 }

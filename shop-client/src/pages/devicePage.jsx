@@ -7,7 +7,7 @@ const DevicePage = () => {
         id: 1,
         name: 'Apple EarPods',
         price: 5999,
-        rating: 5,
+        rate: 5,
         img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewgam_BrdO_OIqrFzDdqLdbYI1mEZ6EZTBA&usqp=CAU'
     }
     const description = [

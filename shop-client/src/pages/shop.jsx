@@ -15,7 +15,7 @@ const Shop = () => {
                     <TypeBar/>
                 </Col>
                 <Col md={9}>
-                    <BrandBar/>
+                    {/*<BrandBar/>*/}
                     <DeviceList/>
                 </Col>
             </Row>

@@ -1,4 +1,10 @@
 import {makeAutoObservable} from 'mobx'
+import byz from '../components/image/s852I.png'
+import ep from '../components/image/earPods.png'
+import ep2 from '../components/image/earPods2.png'
+import gerlax from '../components/image/gerlax.png'
+import airPods from '../components/image/airPods.png'
+import borofone from '../components/image/borofone.png'
 
 export default class DeviceStore {
     constructor() {
@@ -16,47 +22,68 @@ export default class DeviceStore {
         ]
         this._devices = [
             {
-                id: 1,
-                name: 'Apple EarPods',
-                price: 5999,
-                rating: 5,
-                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewgam_BrdO_OIqrFzDdqLdbYI1mEZ6EZTBA&usqp=CAU'
+                id: "1",
+                img: byz,
+                name: "Apple BYZ S852I",
+                price: "2927",
+                rate: "4.7"
             },
             {
-                id: 2,
-                name: 'Apple AirPods1',
-                price: 15000,
-                rating: 5,
-                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwzSt2diG-rlRrx4iA6Z8FAKojCJVpespU9ttWVjYNGqPbHxvlJd21DOjT689O3PUFi-k&usqp=CAU'
+                id: "2",
+                img: ep,
+                name: "Apple EarPods",
+                price: "2327",
+                rate: "4.5"
             },
             {
-                id: 3,
-                name: 'Apple AirPods Pro',
-                price: 26000,
-                rating: 5,
-                img: 'https://superg.ru/wp-content/uploads/2019/11/P1450508.jpg'
+                id: "3",
+                img: ep2,
+                name: "Apple EarPods 2",
+                price: "2327",
+                rate: "4.5"
             },
             {
-                id: 4,
-                name: 'Apple EarPods2',
-                price: 27000,
-                rating: 5,
-                img: 'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/photo_1588156979435_379b9d365296_3.jpg'
+                id: "4",
+                img: byz,
+                name: "Apple BYZ S852I",
+                price: "2927",
+                rate: "4.7"
             },
             {
-                id: 5,
-                name: 'Samsung AKG EO-IC100BWE',
-                price: 1500,
-                rating: 4,
-                img: 'https://a.allegroimg.com/s720/1108b5/02ed062b4c39a2dd640375b58f1e/PRZEWODOWE-SLUCHAWKI-SAMSUNG-AKG-EO-IC100BWE-TYP-C'
+                id: "5",
+                img: ep,
+                name: "Apple EarPods",
+                price: "2327",
+                rate: "4.5"
             },
             {
-                id: 6,
-                name: 'Samsung GALAXY Buds+',
-                price: 13000,
-                rating: 4,
-                img: 'https://ixbt.online/live/topics/preview/00/02/02/46/62ad61907d.png'
+                id: "6",
+                img: ep2,
+                name: "Apple EarPods 2",
+                price: "2327",
+                rate: "4.5"
             },
+            {
+                id: "7",
+                img: airPods,
+                name: "Apple AirPods",
+                price: "9527",
+                rate: "4.7"
+            },
+            {
+                id: "1",
+                img: gerlax,
+                name: "Apple BYZ S852I",
+                price: "2927",
+                rate: "4.7"
+            },
+            {
+                id: "9",
+                img: borofone,
+                name: "Borofone BO4",
+                price: "7527",
+                rate: "4.7"
+            }
         ]
         this._selectedType = {}
         this._selectedBrand = {}

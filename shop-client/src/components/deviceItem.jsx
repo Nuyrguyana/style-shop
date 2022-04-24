@@ -7,28 +7,33 @@ import {DEVICE_ROUTE} from "../utils/consts";
 const DeviceItem = ({device}) => {
     const history = useHistory()
     return (
-        <Col md={3} className='mt-3' onClick={() => history.push(DEVICE_ROUTE + '/' + device.id)}>
-            <Card
-                style={{width: 150, cursor: 'pointer'}}
-                border={'light'}
-            >
+        <div className='content' onClick={() => history.push(DEVICE_ROUTE + '/' + device.id)}>
+            <div className='card-content-image'>
                 <Image
-                    className='shadow rounded'
-                    width={150}
-                    height={120}
+                    className='img-product'
+                    // width={150}
+                    // height={120}
                     src={device.img}
                 />
-                <div className='text-black-50 mt-1 d-flex justify-content-between align-items-center'>
-                    <div>Samsung..</div>
-                    <div className='d-flex align-items-center'>
-                        <div>{device.rating}</div>
-                        <Image width={16}  src={star}/>
+            </div>
+            <div className='card-content'>
+                <span className='title'>{device.name}</span>
+                <span className='price'>{device.price} ₽</span>
+            </div>
+            <div className='card-content'>
+                <div>
+                    <div className='star'>
+                        <Image src={star}/>
                     </div>
+                    <span>{device.rate}</span>
                 </div>
-                    <div>{device.name}</div>
-            </Card>
-        </Col>
-    );
+                <div>
+                    <button className='button-add'>купить</button>
+                </div>
+            </div>
+        </div>
+)
+    ;
 };
 
 export default DeviceItem;
