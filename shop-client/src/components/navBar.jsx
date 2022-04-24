@@ -7,6 +7,7 @@ import {ADMIN_ROUTE, LOGIN_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import {observer} from "mobx-react-lite";
+import otto from '../assets/oto-removebg-preview.png'
 
 const NavBar = observer(() => {
         const {user} = useContext(Context)
@@ -14,7 +15,8 @@ const NavBar = observer(() => {
         return (
             <Navbar bg='dark' variant='dark'>
                 <Container>
-                    <NavLink style={{color: 'white'}} to={SHOP_ROUTE}>OTTOMANN</NavLink>
+                    <NavLink className='brand-style' to={SHOP_ROUTE}>OTTO<img src={otto} width={80}/>MANN</NavLink>
+
                     {user.isAuth ?
                         <Nav className='ml-auto' style={{color: 'white'}}>
                             <Button
