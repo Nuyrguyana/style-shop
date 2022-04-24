@@ -109,3 +109,13 @@ body {
     background: none;
     color: white;
 }
+
+.text-center{
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    /*width: 200px;*/
+    /*height:100px;*/
+    /*background: #f0f0f0;*/
+
+}
